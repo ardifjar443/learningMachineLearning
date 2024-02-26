@@ -1,0 +1,1 @@
+from my_package.diagnosticPlot import diagnostic_plots
