@@ -1,0 +1,58 @@
+author,Name of first author
+year,Year of publication
+journal,Journal of publication
+doi,"DOI of publication. If DOI was not available, the PubMed ID or Web of Science accession number was provided instead. These are indicated by 'PMID' and 'WOS', respectively."
+location,"Country where the experiment was performed (or, the original location of the soil if a greenhouse experiment was performed in another location)."
+type,Type of experiment. 'Field' is self explanatory; 'pot' refers to experiments performed in a greenhouse in pots; 'tunnel' refers to field experiments performed under a hoophouse or tunnel.
+cover,Categories combining experiment types. 'Covered' includes 'pot' and 'tunnel' experiments.
+zone,"Tropical or temperate, based on the latitude provided in the publication."
+map,Mean annual precipitation (mm)
+map_note,"Observations with 'a' were taken from the Climate Change Knowledge Portal of the World Bank, on the basis of the location indicated in the published study."
+mat,Mean annual temperate (Celsius)
+ph,Self explanatory
+sand,Self explanatory (percentage)
+silt,Self explanatory (percentage)
+clay,Self explanatory (percentage)
+texture_note,Observations with 'b' were taken from the HWSDB or other studies published from the same location
+tot_n,Total nitrogen (g kg-1)
+av_n,Available nitrogen (mg kg-1). Includes NH4 and NO3.
+tot_p,Total phosphorous (g kg-1)
+av_p,Available phosphorous (mg kg-1)
+som,Soil organic matter (g kg-1)
+soc,Soil organic carbon (g kg-1)
+soc_note,"Observations with 'c' were imputed from SOM values, if provided, using the conversion factor of 0.58."
+n_fert_class,Categories of nitrogen fertilizer. Low: < 100 kg N ha-1; Medium: 100-250 kg N ha-1; High: > 250 kg N ha-1
+n_fert_amt,Amount of nitrogen fertilizer (kg ha-1)
+p_fert_amt,Amount of phosphorous fertilizer (kg ha-1)
+irrigated,Irrigated (yes or no). Data field may be incomplete.
+duration,Duration of study (years). Number of years since the experimental and control plots had been established. Observations taken in the same year as establishment have a value of '1'.
+sample,Type of soil sample ('bulk' or 'rhizosphere'). Terms were used as defined in the original published study.
+depth,Depth of bulk soil samples (cm)
+main,Type of plant used as the main crop. Main crop plants were defined as those that were grown as monoculture in the 'control' group.
+main_cat,"Category of main crop ('grasses', 'legumes', 'forbs', 'woody'). Categories based on USDA descriptions of growth habit. Leguminous forbs were included as 'legumes'."
+inter,"Type of plant used as the intercrop. Intercrop plants were defined as those added to the main crop in the 'treatment' group. Occassionally, more than one intercrop was included."
+inter_cat,"Category of intercrop ('grasses', 'legumes', 'forbs', 'woody'). Categories based on USDA descriptions of growth habit. Leguminous forbs were included as 'legumes'."
+n_ctrl,Number of experimental replicates in the control group.
+n_trt,Number of experimental replicates in the treatment group.
+ler,Land equivalency ratio. Values from published studies.
+yield_rr,Yield response ratio. Calculated value from data provided on plant biomass or yield. Response ratio was yield of treatment compared to yield of control.
+yield_lnrr,Natural log of the yield response ratio
+yield_ler,"Combined column of yield RR and LER. If both values were available in a study, LER is included preferentially."
+enz,Enzyme assayed
+enz_ec,EC number of enzyme
+enz_type,Groups of enzyme. Enzymes were grouped according to nutrient primarily associated with their activity. General enzymes included commonly used indicators of overall microbial activity.
+avg_eea_ctrl,Average enzyme activity in the control group
+stddev_eea_ctrl,Standard deviation of enzyme activity in the control group
+avg_eea_trt,Average enzyme activity in the intercrop treatment group
+stddev_avg_trt,Standard deviation of enzyme activity in the intercrop treatment group
+stddev_note,"If studies did not include a measure of variability reported in the study and the authors did not respond to requests for further information, standard deviations were imputed from the average coefficient of variation of the entire dataset. Such observations are denoted with 'd'."
+avg_mbc_ctrl,Average microbial biomass carbon (g kg-1) in the monoculture control group
+stddev_mbc_ctrl,Standard deviation of MBC in the monoculture control group
+avg_mbc_trt,Average microbial biomass carbon (g kg-1) in the intercrop treatment group
+stddev_mbc_trt,Standard deviation of MBC in the intercrop treatment group
+lnrr_eea,Natural log of the enzyme activity response ratio
+var_lnrr_eea,Variance in the natural log of the enzyme activity response ratio
+lnrr_mbc,Natural log of the MBC response ratio
+var_lnrr_mbc,Variance in the natural log of the MBC response ratio
+assay_method,Parent method of enzyme assay used in the published study. Parent methods were grouped as described in the published meta-analysis (Table S1). Studies using the same parent method frequently still utilized different assay conditions. 
+assay_soil,Type of soil used in the assay ('fresh' or 'air-dried')
